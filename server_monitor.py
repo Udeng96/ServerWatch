@@ -180,7 +180,7 @@ class ConnectPanel(QFrame):
         row=QHBoxLayout(); row.setSpacing(8)
         iv=QVBoxLayout(); iv.setSpacing(4)
         li=QLabel("IP 주소"); li.setFont(QFont("Consolas",10,QFont.Bold)); li.setStyleSheet("color:#8B949E;")
-        self.f_ip=QLineEdit(); self.f_ip.setPlaceholderText("192.168.1.100"); self.f_ip.setFixedHeight(38)
+        self.f_ip=QLineEdit(); self.f_ip.setPlaceholderText("198.51.100.1"); self.f_ip.setFixedHeight(38)
         iv.addWidget(li); iv.addWidget(self.f_ip)
         pv=QVBoxLayout(); pv.setSpacing(4)
         lp=QLabel("포트"); lp.setFont(QFont("Consolas",10,QFont.Bold)); lp.setStyleSheet("color:#8B949E;")
